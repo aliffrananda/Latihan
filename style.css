@@ -1,0 +1,39 @@
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+li{
+        list-style: none;
+
+}
+
+.atas {
+    background-color: chocolate;
+    height: 120px;
+}
+
+
+
+.tengah {
+    background-color: blue;
+    height: 250px;
+}
+
+.bawah {
+    background-color: crimson;
+    height:  200px;
+}
+
+.inilogo{
+    font-size: 36px;
+    padding: 33px 20px;
+    float: left;
+    margin-left: 200px;
+
+}
+
+.header-list li{
+    float: left;
+    padding: 40px 20px;
+   
+}
