@@ -1,0 +1,195 @@
+.body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .navbar{
+    display: flex;
+    width: auto;
+    background-color: #2B4570 ;
+    height: 70px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+   transition: 0.4s;
+ }
+ 
+ .logo{
+    float: left;
+    width: 5%;
+ }
+ 
+ .teks{
+    width: 10%;
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: antiquewhite(207, 29, 29);
+    
+ }
+ .menu-navbar a{
+   text-decoration: none;
+   color: white;
+
+
+ }
+ .menu-navbar{
+    display: flex;
+    align-items: left;
+    width: 45%;
+    justify-content: space-between;
+    padding: 0px 0px 0px 500px;
+    font-family: 'Kanit', sans-serif;
+    color: white
+    
+ }
+
+.menu-navbar a:hover{
+   color: #82B43F;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 3pt solid white
+}
+.btn-wrapper a{
+   text-decoration: none;
+   color: white;
+}
+.btn-wrapper a:hover{
+   color: #008616;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 3pt solid white
+}
+ 
+ .facebook{
+   background-color: blue;
+   color: white;
+ }
+
+ .signup{
+   color: white;
+   background-color: red;
+ }
+ 
+ .twitter{
+   color: white;
+   background-color: #09f;
+ }
+ 
+ .top-wrapper{
+ background-image: url(pandawa\ 2.jpg);
+ padding: 180px 0 200px 0 ;
+ background-size: cover;
+ text-align: center;
+ color: rgb(0, 0, 0);
+ }
+
+  .koran {
+   background-color: #2B4570;
+   width: auto;
+   height: 100px;
+}
+
+.koran h1 {
+   text-align: center;
+   padding-top: 15px;
+}
+
+.copy-container h1 {
+   font-size: 50px;
+   color: #e07a04;
+}
+
+.section-title {
+   border-bottom: 2px solid #35d60d;
+}
+
+.konten{
+   width: auto;
+   height: 150px;
+   margin: 0;
+   text-align: justify;
+   background-color: #2B4570;
+}
+
+.isi-koran{
+   -webkit-column-count: 3;
+   -moz-column-count: 3;
+   column-count: 3;
+   width: auto;
+   height: auto;
+   padding: 10px;
+   color: yellow;
+   -webkit-column-rule-width : 1px;
+  -moz-column-rule-width : 1px;
+  column-rule-width : 1px;
+  -webkit-column-rule : 1px solid aquamarine;
+  -moz-column-rule : 1px solid aquamarine;
+  column-rule : 1px solid aquamarine;
+  -webkit-column-span :all;
+  -moz-column-span :all;
+  column-span: all	;
+}
+
+.isi-koran a {
+   font-weight: bold;
+   font-size: 50px;
+}
+
+.tengah {
+   background-color: #3C787E;
+   display: flex;
+   justify-content: center ;
+}
+.kontak form {
+   padding-top: 50px;
+   width: 10;
+
+}
+
+input,textarea{
+   width: 400px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   padding: 20px;
+   font-size: 18px;
+}
+
+input,textarea{
+   border: 1px solid #dee7ec;
+
+}
+
+.submit-contact {
+   background-color: #dee7ec;
+   color: black;
+}
+
+
+ 
+ 
+.bawah{
+    width: auto;
+    background-color: #578F67;
+    height: 70px;
+    padding: 0px 0px 0px 0px;
+   
+   
+}
+ 
+.bawah li{
+   padding: 10px;
+   
+}
+ 
+ 
+.bottom {
+   list-style: none;
+   margin: 20px;
+   display: flex;
+   float: right;
+   align-items: center;
+ }
+ 
