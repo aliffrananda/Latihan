@@ -1,0 +1,97 @@
+.body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ .navbar{
+    display: flex;
+    width: auto;
+    background-color: #2B4570 ;
+    height: 70px;
+    padding: 0px 0px 0px 0px;
+    align-items: center;
+   transition: 0.4s;
+ }
+ 
+ .aktif{
+   background-color: rgb(235, 134, 3);
+ }
+ .logo{
+    float: left;
+    width: 5%;
+ }
+ 
+ .teks{
+    width: 10%;
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    color: antiquewhite(207, 29, 29);
+    
+ }
+ .menu-navbar a{
+   text-decoration: none;
+   color: white;
+
+
+ }
+ .menu-navbar{
+    display: flex;
+    align-items: left;
+    width: 45%;
+    justify-content: space-between;
+    padding: 0px 0px 0px 500px;
+    font-family: 'Kanit', sans-serif;
+    color: white
+ }
+
+.menu-navbar a:hover{
+   color: #82B43F;
+    font-weight: bold;
+    opacity: 1;
+    transition: 0.3s;
+    border-bottom: 3pt solid white
+}
+
+.gambar {
+   margin-top: 40px;
+   margin-left: 20px;
+   height: 600px;
+   width: 650px;
+
+}
+
+.deskripsi {
+   float: right;
+}
+
+.deskripsi p {
+   float: right;
+   margin-top: 20px;
+   margin-right: 40px;
+   font-size: 30px;
+   padding-top: 30px;
+}
+.bawah{
+   width: auto;
+   background-color: #578F67;
+   height: 70px;
+   padding: 0px 0px 0px 0px;
+  
+  
+}
+
+.bawah li{
+  padding: 10px;
+  
+}
+
+
+.bottom {
+  list-style: none;
+  margin: 20px;
+  display: flex;
+  float: right;
+  align-items: center;
+}
